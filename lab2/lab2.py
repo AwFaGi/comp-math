@@ -240,8 +240,8 @@ if __name__ == "__main__":
 
             if sol:
                 print(f"Solution:")
-                print(f"x = {sol[0]}")
-                print(f"y = {sol[1]}")
+                print(f"x = {sol[0]:.4f}")
+                print(f"y = {sol[1]:.4f}")
             else:
                 print("No solution found in 300k iterations")
 
